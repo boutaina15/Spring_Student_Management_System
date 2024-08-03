@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: studentApp
+  datasource:
+    url: jdbc:mysql://localhost:3306/studentdb
+    username: toubaina
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+
