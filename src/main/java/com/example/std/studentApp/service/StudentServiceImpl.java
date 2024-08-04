@@ -43,6 +43,7 @@ public class StudentServiceImpl implements StudentService{
         if (student != null){
          student.setName(studentreq.getName());
          student.setBirth(studentreq.getBirth());
+         student.setSchool(studentreq.getSchool());
          System.out.println("the student with id : "+studentId+ " has been updated succefully");
 
         }
